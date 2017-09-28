@@ -103,16 +103,7 @@ Participants should bring their laptops and plan to participate actively. By the
   address.
 -->
 {% if page.latlng %}
-<p>
-  This workshop will be held at the Canadian Museum of Nature. Details:
-  <ul>
-    <li>Please enter through the main entrance after it opens at 8:15.</li>
-    <li>Signage with the conference logo will direct organizers and participants to the Barrick Boardroom</li>
-    <li>The Museum offers wifi with no password needed, some wired connections will be available</li>
-    <li>Lunch will be provided and all food must remain in the Barrick Boardroom<li>
-    <li>Everyone must be out of the building by 5:00 pm, we will wrap up at 4:30</li>
-</ul>
-</p>
+
 <p>
   <strong>Where:</strong>
   {{page.address}}.
@@ -120,6 +111,16 @@ Participants should bring their laptops and plan to participate actively. By the
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+</p>
+<p>
+  This workshop will be held at the Canadian Museum of Nature. Details:
+  <ul>
+    <li>Please enter through the main entrance after it opens at 8:15.</li>
+    <li>Signage with the conference logo will direct organizers and participants to the Barrick Boardroom</li>
+    <li>The Museum offers wifi with no password needed, some wired connections will be available</li>
+    <li>Lunch will be provided and all food must remain in the Barrick Boardroom</li>
+    <li>Everyone must be out of the building by 5:00 pm, we will wrap up at 4:30</li>
+</ul>
 </p>
 {% endif %}
 
